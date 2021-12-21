@@ -1,0 +1,136 @@
+.contato-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    max-width: 1100px;
+    height: 400px;
+
+    margin-left: 400px;
+
+    border-top: 2px solid rgba(190, 190, 190, 0.89);
+    border-bottom: 2px solid rgba(190, 190, 190, 0.89);
+}
+
+.title-contato {
+    display: flex;
+    margin-top: 48px;
+}
+
+.title-contato h1{
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.contato-descricao {
+    margin-top: 48px;
+    margin-left: 30px;
+
+    width: 635px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-descricao p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+    opacity: 0.8;
+}
+
+.contato-descricao div {
+    margin-top: 25px;
+}
+
+.contato-descricao div ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+li {
+    margin-left: 15px;
+}
+
+.contato-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    max-width: 1100px;
+    height: 400px;
+
+    margin-left: 400px;
+    margin-bottom: 180px;
+}
+
+.inputs {
+    margin-top: 47px;
+    margin-right: 0px;
+
+    width: 650px;
+}
+
+.container-input {
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-input label {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+
+    color: #33323D;
+    opacity: 0.8;
+}
+
+.container-input input {
+    padding: 15px 25px;
+    
+    background-color: #33323D;
+    opacity: 0.1;
+}
+
+.container-input input:focus {
+    
+    border-color: #000000;
+    border: 2px solid #000000;
+}
+
+.mensagem input {
+    padding-bottom: 63px;
+}
+
+.input-btn button {
+    margin-top: 17px;
+    padding: 17px 75px;
+
+    background-color: #203A4C;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFF;
+
+    cursor: pointer;
+}
+
+.input-btn button:hover {
+    background-color: #5FB4A2;
+    border: 2px solid #5FB4A2;;
+}

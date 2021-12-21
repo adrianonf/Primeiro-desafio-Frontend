@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 60px 410px;
+
+    min-width: 1080px;
+    
+}
+
+.header img {
+    width: 60px;
+    height: 32px;
+}
+
+.header ul {
+    display: flex;
+
+    list-style-type: none;  
+}
+
+.header a {
+    text-decoration: none;
+    color: #33323D;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.header li {
+    margin-left: 40px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background img {
+    min-width: 1000px;
+    max-width: 1110px;
+    min-height: 500px;
+    margin: 50px 410px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center; 
+
+    min-width: 600px;
+
+    margin: 40px 140px; 
+}
+
+.portfolio-card {
+    padding: 50px 0;
+    
+    max-height: 600px;
+    width: 430px;
+    border-top: 2px solid rgba(190, 190, 190, 0.89);
+    border-bottom: 2px solid rgba(190, 190, 190, 0.89);
+}
+
+.portfolio-txt {
+    margin: 30px auto;
+}
+
+.portfolio-txt h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.portfolio-txt p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #33323D;
+    opacity: 0.8;
+    padding: 25px 0;margin-bottom: 25px;
+}
+
+.txt-detalhes p {
+    color: #5FB4A2;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.portfolio-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.portfolio-btn a {
+    text-decoration: none;
+}
+
+.portfolio-btn button {
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 17px 60px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    color: #33323d;
+    background-color: #FFF;
+
+    cursor: pointer;
+}
+
+.portfolio-projeto {
+    max-width: 635px;
+
+    margin-left: 80px;
+}
+
+.projeto-txt h1 {
+    color: #33323D;
+
+    margin-left: 20px;
+    font-family: 'Ibarra Real Nova', sans-serif;
+    letter-spacing: -0.285714px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.projeto-txt p {
+    padding: 25px;
+
+    color: #33323D;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.projeto-preview h1 {
+    color: #33323D;
+
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'Ibarra Real Nova', sans-serif;
+    letter-spacing: -0.285714px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.projeto-preview img {
+    width: 635px;
+    height: 400px;
+
+    margin-bottom: 40px;
+    padding: 0 20px
+}
+
+.portfolio-guia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 1100px;
+    height: 132px;
+    margin-left: 430px;
+    
+    border-top: 2px solid rgba(190, 190, 190, 0.89);
+    border-bottom: 2px solid rgba(190, 190, 190, 0.89);
+}
+
+.portfolio-guia a {
+    text-decoration: none;
+}
+
+.guia-txt h1 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+
+    color: #33323D;
+}
+
+.guia-txt p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.guia1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.guia1 img {
+    display: flex;
+    align-items: center;
+
+    margin: 29px 19px;    
+    width: 13px;
+    height: 10px;
+}
+
+.guia1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.guia2 {
+    display: flex;
+}
+
+.guia2 img {
+    display: flex;
+    align-items: center;
+
+    margin: 29px 19px;    
+    width: 13px;
+    height: 10px;
+}
+
+.guia2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.contato-section {
+    display: flex;
+    justify-content: space-between;
+
+    min-width: 1000px;
+    max-width: 1110px;
+    min-height: 84px;
+    margin: 50px 410px;
+    
+}
+
+.contato-titulo {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    width: 367px;
+    height: 84px;
+
+    margin-left: 50px;
+
+    color: #33323D;
+}
+
+.contato-btn button {
+    padding: 20px 50px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    color: #33323d;
+    background-color: #FFF;
+
+    cursor: pointer;
+}
+
+.contato-btn:hover button{
+    color: #FAFAFA;
+    background-color: #33323D;
+
+    padding: 20px 50px;
+
+    border: 2px solid #33323D;
+}
+
+.footer {
+    background-color:#33323D;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 60px 410px;
+}
+
+.footer-container div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    width: 309px;
+}
+
+.footer img {
+    padding: 15px 10px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #FFF;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin-left: 20px;
+}
+
+.footer-icons {
+    display: flex;
+
+    padding:10px;
+    margin:0 20px;
+
+    max-width: 104px;
+}
